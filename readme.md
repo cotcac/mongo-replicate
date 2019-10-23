@@ -16,9 +16,9 @@ docker network create my-mongo-cluster
 ```
 Create 3 Mongo Nodes
 ```
-docker run --name mongo-node1 -d --net my-mongo-cluster mongo --replSet “rs0"
-docker run --name mongo-node2 -d --net my-mongo-cluster mongo --replSet “rs0"
-docker run --name mongo-node2 -d --net my-mongo-cluster mongo --replSet “rs0"
+docker run --name mongo-node1 -d --net my-mongo-cluster mongo --replSet "rs0"
+docker run --name mongo-node2 -d --net my-mongo-cluster mongo --replSet "rs0"
+docker run --name mongo-node2 -d --net my-mongo-cluster mongo --replSet "rs0"
 ```
 
 config
